@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>brilliant fantastic</title>
+    <style>
+      html, body, div.hero {
+        height: 100%;
+        margin: 0;
+      }
+
+      .hero {
+        padding: 0 1.1rem;
+      }
+
+      .hero img {
+        display: block;
+        height: auto;
+        margin: 0 auto;
+        max-height: 100%;
+        max-width: 100%;
+        width: auto;
+      }
+
+      .floating-menu {
+        list-style: none;
+        position: absolute;
+        z-index: 99;
+      }
+
+      .floating-menu:first-child {
+        left: 32%;
+        top: 45%;;
+      }
+
+      .floating-menu:last-child {
+        right: 32%;
+        top: 35%;;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- WRITING / MERCH (STUFF/CARGO) / TEACHING (SCHOOL) / CODING -->
+    <ul class="floating-menu">
+      <li><a href="#">Writing</a></li>
+      <li><a href="#">Stuff</a></li>
+    </ul>
+    <div class="hero">
+      <img src="images/bf_robot.png" alt="Brilliant Fantastic Robot Logo" />
+    </div>
+    <ul class="floating-menu">
+      <li><a href="#">School</a></li>
+      <li><a href="#">Coding</a></li>
+    </ul>
+  </body>
+</html>
